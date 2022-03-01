@@ -1,0 +1,233 @@
+@media screen and (max-width: 1440px) {
+  .quebra .redes {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .quebra {
+    margin: 30px 140px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .quebra {
+    margin: 0;
+    width: auto;
+    height: 320px;
+  }
+  /* REDES */
+  .redes-contato {
+    width: 508px;
+    margin-left: 76px;
+  }
+  .redes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* SOBRE */
+  .sobre {
+    margin: 0 29px;
+  }
+  /* SKILLS */
+  .container-skills {
+    width: auto;
+  }
+  .skills-cont {
+    margin: 0 51px;
+    width: 708px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .skills-cont {
+    margin: 0 46px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .redes-contato {
+    margin-left: 40px;
+  }
+  .skills-cont {
+    margin: 0 6px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .quebra {
+    height: 380px;
+  }
+  .redes-contato {
+    margin-left: 20px;
+  }
+  .quebra > div:nth-child(2) {
+    margin-right: 20px;
+  }
+
+  .skills-cont {
+    width: 500px;
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #eaf2fd;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  .quebra {
+    height: 400px;
+  }
+
+  .skills-cont {
+    margin: 0 40px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .quebra {
+    flex-direction: column-reverse;
+  }
+  .redes-contato {
+    margin-left: 25px;
+    width: 377px;
+    height: 300px;
+  }
+  .redes {
+    width: 300px;
+  }
+  .redes > a:nth-child(1) {
+    width: 129px;
+  }
+  .redes-contato h1 {
+    width: 381px;
+    font-size: 22px;
+  }
+  .redes-contato p {
+    font-size: 14px;
+  }
+  .redes a {
+    font-size: 16px;
+  }
+  .quebra .redes {
+    height: 129px;
+  }
+  .foto-intro {
+    margin-right: 0px;
+  }
+  .foto {
+    margin-left: 139px;
+  }
+  /* SOBRE */
+  .sobre-container {
+    height: 264px;
+    margin-top: 20px;
+  }
+  .sobre {
+    height: 213px;
+  }
+
+  /* SKILLS */
+  .skills-cont {
+    width: 220px;
+    margin: 0 104px;
+  }
+
+  .skill img {
+    width: 130px;
+  }
+
+  /* PROJETOS */
+  .foto-projeto {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .foto {
+    margin-left: 115px;
+  }
+  .redes-contato {
+    margin: 0 6px;
+  }
+  .skills-cont {
+    margin: 0 85px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #header {
+    margin-bottom: 30px;
+  }
+  #logo {
+    font-size: 16px;
+  }
+  .foto {
+    margin: 0 85px;
+  }
+  .redes-contato {
+    width: 320px;
+    margin: 0 2px;
+  }
+  .redes-contato p {
+    width: 312px;
+  }
+  .redes-contato h1 {
+    width: 300px;
+  }
+  .sobre {
+    margin: 0 10px;
+    height: 232px;
+  }
+  .skills-cont {
+    margin: 0 50px;
+  }
+}

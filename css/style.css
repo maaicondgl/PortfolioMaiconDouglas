@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav .menu-nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+/* QUEBRA */
+.quebra {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 30px 292px;
+}
+.quebra a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  margin: 0 10px;
+  /* border: 2px solid #000;
+  border-radius: 10px; */
+}
+.foto {
+  width: 150px;
+  border-radius: 100px;
+}
+/* SOBRE */
+.sobre-container {
+  display: flex;
+  background: #eaf2fd;
+  align-items: center;
+  height: 200px;
+}
+.sobre {
+  width: 751px;
+  height: 133px;
+  margin: 0 292px;
+}
+/* SKILLS */
+.container-skills {
+  text-align: center;
+  margin-top: 20px;
+}
+.container-skills h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.skills-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 20px 250px;
+}
+.skills-cont img {
+  width: 200px;
+}
+.skill {
+  display: flex;
+
+  justify-content: center;
+  align-items: Center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+  background: var(--darkSecond);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.skill:hover {
+  transform: translateY(-15px);
+  box-shadow: rgb(33 150 243 / 50%) 0px 5px, rgb(3 169 244 / 40%) 0px 10px,
+    rgb(3 169 244 / 30%) 0px 15px, rgb(3 169 244 / 20%) 0px 20px,
+    rgb(3 169 244 / 10%) 0px 25px;
+  background: #eaf2fd;
+}
+
+.content-skills .card-link {
+  margin: 0;
+  text-decoration: none;
+}
+.skills-cont a {
+  text-decoration: none;
+}
+.skill img {
+  width: 130px;
+  height: 130px;
+}
+#skills-interaction {
+  display: flex;
+  position: absolute;
+  top: 147px;
+  margin: 0;
+  padding: 0;
+  color: #898888;
+}
+
+.card-link p {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+/* FORMACAO */
+.formacao-container {
+  text-align: center;
+  background: #eaf2fd;
+  padding-top: 30px;
+}
+.formacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+/* PROJETOS */
+.projetos-container h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.projetos-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.projetos-cont div {
+  margin: 30px 0;
+}
+.projetos-cont a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+.projetos-cont h5 {
+  margin: 20px 0;
+}
+footer {
+  background: #eaf2fd;
+}
+.content-footer {
+  text-align: center;
+  font-weight: bold;
+}
