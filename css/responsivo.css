@@ -3,18 +3,37 @@
     height: 70px;
   }
 }
-
+@media screen and (max-width: 1360px) {
+  .skills-cont {
+    margin: 0 263px;
+  }
+}
 @media screen and (max-width: 1280px) {
   .quebra {
     margin: 30px 140px;
   }
 }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
   .quebra {
     margin: 0;
     width: auto;
     height: 320px;
   }
+  /* REDES */
+  .redes-contato {
+    width: 508px;
+    margin-left: 183px;
+  }
+  .redes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* SOBRE */
+  .sobre {
+    margin: 0 29px;
+  }
+}
+@media screen and (max-width: 920px) {
   /* REDES */
   .redes-contato {
     width: 508px;
@@ -33,8 +52,13 @@
     width: auto;
   }
   .skills-cont {
-    margin: 0 51px;
-    width: 708px;
+    margin: 0 106px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 834px) {
+  .skills-cont {
+    margin: 0 46px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -192,7 +216,12 @@
     width: 200px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
+  .container-skills .skills-cont a {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 394px) {
   .foto {
     margin-left: 115px;
   }
@@ -201,6 +230,30 @@
   }
   .skills-cont {
     margin: 0 85px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .redes-contato {
+    width: auto;
+  }
+  .redes-contato h1 {
+    font-size: 20px;
+    width: auto;
+  }
+  .skills-cont {
+    margin: 0 70px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .redes-contato {
+    width: auto;
+  }
+  .redes-contato h1 {
+    font-size: 20px;
+    width: auto;
+  }
+  .skills-cont {
+    margin: 0 70px;
   }
 }
 @media screen and (max-width: 320px) {
