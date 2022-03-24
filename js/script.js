@@ -15,3 +15,10 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+// SCROLL
+
+function role() {
+  var scroll = document.querySelector()
+  
+}
