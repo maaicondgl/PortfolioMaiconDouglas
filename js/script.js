@@ -18,7 +18,3 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 // SCROLL
 
-function role() {
-  var scroll = document.querySelector()
-  
-}
